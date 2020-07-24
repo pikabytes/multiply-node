@@ -10,7 +10,7 @@ let listarTabla = (base, limite=10) => {
     console.log(`${base} * ${i} = ${base * i}`);
   }
 };
-
+ 
 
 let crearArchivo = (base, limite) => {
   return new Promise((resolve, reject) => {
